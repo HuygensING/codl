@@ -1,0 +1,348 @@
+/*   
+Theme Name: CODL
+Theme URI: http://www.codl.nl
+Description: Start template for Wordpress
+Author: Bas Doppen
+Author URI: http://huygens.knaw.nl
+Version: 0.1
+*/
+
+/*LAYOUT*/
+
+/*
+#B0C784		green
+#A892A7		purple
+#F2F2C4		yellow
+*/
+* {
+	margin:0;
+	padding:0;
+	}
+
+body {
+	background-color:#666;
+	font-family: 'Raleway', sans-serif;
+	font-weight:300;
+	font-size:13px;
+	line-height:22px;
+	}
+
+h1{
+	font-weight:300;
+	color:#A892A7;
+	font-size:30px;
+	}
+
+	
+	
+h2 {
+	font-weight:300;
+	color:#B0C784
+	}	
+
+h3 {
+	font-weight:600;
+	color:#B0C784;
+	margin:0px 0px 4px 0px;
+	
+	}
+
+h4 {
+	font-weight:300;
+	color:#A892A7 !important;
+	margin:0px 0px 4px 0px;
+	font-size:20px !important;
+	}
+
+
+.twoCol h3 {
+	margin:0px 0px 4px 0px;
+	}
+
+	
+h4 a{
+	font-size:13px;
+	color:#000;
+	}
+
+.h1Small {
+	font-size:14px;
+	display:block;
+	margin:0px 0px 5px 0px;
+	}
+
+p {
+	margin:0px 0px 8px 0px;
+	}
+
+a {
+	color:#A892A7;
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration:underline;
+	}
+
+img {
+	border:none;
+	}
+
+.imgfill {
+	width:100%;
+	}
+
+.wrapper {
+	background-color:#fff;
+	}
+
+.umbrella {
+	background-color: #A892A7;
+	color: #FFFFFF;
+	
+}
+
+.umbrella a{
+	color: #FFFFFF;
+	
+}
+
+.umbrella li{
+	list-style: none;
+	display: inline-block;
+	padding: 3px 0px 3px 20px 
+	
+}
+
+.umbrella .right {
+	margin:4px 30px 0px 0px;
+	
+}
+
+.eastbound-logo {
+	width: 300px !important;
+	height: auto;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.header{
+	clear:both;
+	padding:30px 0px 90px 0px;
+	}
+
+.js-eastbound .header {
+	padding:30px 0px 30px 0px;
+	text-align: center;
+}
+
+.header a{
+	text-decoration:none;
+	}
+	
+.navigation{
+	clear:both;
+	padding:0px 0px 0px 0px;
+	background-color:#B0C784;
+	color:#FFF;
+	font-size:15px;
+	}
+
+.navigation ul{
+	clear:both;
+	background-color:#B0C784;
+	margin:0px 0px 0px 30px;
+	}
+
+
+.navigation li{
+	display:inline;
+	margin:0px 0px 0px 0px;
+	}
+
+.navigation li ul{
+	display:none;
+
+	}
+
+.navigation a{
+	color:#FFF;
+	text-decoration:none;
+	padding:15px 8px 15px 8px;
+	display:inline-block;
+	}
+	
+.navigation a:hover{
+	color:#FFF;
+	background-color:#A892A7;
+	}	
+
+.current-menu-item, .current_page_ancestor {
+	font-weight:600;
+	
+	}
+
+.current-menu-item ul,.current_page_ancestor ul{
+	font-weight:300;
+	}
+
+.submenu-widget {
+	margin:0px 0px 0px 0px;
+	}
+	
+.submenu-widget a{
+	color:#000;
+	border-bottom:1px solid #F2F2C4;
+	margin:5px 0px 5px 0px;
+	display:block;
+	}
+
+.submenu-widget a:hover{
+	text-decoration:none;
+	font-weight:600;
+	}
+
+.submenu-widget li{
+	list-style:none;
+	
+	}
+
+.sub-menu {
+	display:block;
+	}		
+
+.about {
+	background-image:url(images/bg_purple.jpg);
+	background-repeat:repeat-x;
+	height:260px;
+	color:#FFF;
+	margin:0px 0px 50px 0px;
+	}
+
+.about a{
+	color:#F2F2C4;
+	}
+
+.about h2 {
+	font-weight:400;
+	color:#fff;
+	margin:0px 0px 25px 0px;
+	}
+
+.aboutTxt{
+	margin-top:50px;
+	
+	}
+
+.headline{
+	margin-top:25px;
+	margin-bottom:25px;
+	background-color:#CC3;
+	}
+
+.specialBox{
+	margin:25px 0px 25px 0px;
+	border:1px solid #F3F2E4;
+	padding:10px 10px 10px 10px;
+	background-image:url(images/bg_box.png);
+	}
+
+.storyCarousel img{
+	width:600px;
+	margin-right:-100px;
+	height:260px;
+	position:absolute;
+	top:0px
+	}
+
+.carouselTxt a{
+	color:#fff;
+	display:block;
+	background-color:#A892A7;
+	padding: 15px 65px 15px 15px;
+	float:right;
+	position:absolute;
+	right:0px;
+	top:150px;
+	}
+
+.smLogo {
+	margin:0px 5px 0px 0px;
+	}
+
+.newsList li{
+	list-style:none;
+	margin:0px 0px 20px 0px;
+	}
+
+.newsList a h4{
+	font-size:13px;
+	color:#000;
+	}
+
+.event {
+	margin-bottom:30px;
+	}
+
+.pubDate {
+	font-size:11px;
+	color:#B0C784;
+	}
+	
+.footer {
+	clear:both;
+	margin:0px 50px 0px 50px;
+	padding:50px 0px 50px 0px;
+	
+	}
+	
+.right {float: right;}
+	
+
+
+
+
+.slider {
+  position: relative;
+  overflow: hidden;
+   width:480px;
+  height:260px;
+}
+
+.slider li {
+  display: none;
+  position: absolute; 
+  top: 0; 
+  left: 0;
+}
+
+
+
+.upcoming li{
+	list-style:none;
+	}
+
+
+.landing {
+	text-align: center;
+	width: 60%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.landing img{
+	height: 80px;
+	display:inline-block;
+	width: auto;
+	margin-bottom: 2em;
+}
+
+.codlGreen {
+	background-color: #B0C784;
+	padding: 2em 0em;
+	font-size: 1.3em;
+	line-height: 150%;
+}
+
+.codlGreen p {
+	margin-top: -2em;
+}

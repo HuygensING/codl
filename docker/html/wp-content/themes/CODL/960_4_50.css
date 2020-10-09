@@ -1,0 +1,239 @@
+/*LAYOUT*/
+* {
+	margin:0;
+	padding:0;
+	}
+
+body {
+	background-color:#666;
+	}
+
+
+
+.wrapper {
+	width: 960px;
+	background-color:#fff;
+	padding:0px 00px 0px 00px;
+	
+	
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	}
+
+.col {
+	margin-bottom:20px;
+	}
+	
+.oneCol {
+	width:177px;
+	margin-left:50px;
+	float:left;
+
+	}
+
+.codlLogo {
+	width:120px;
+	}
+
+.twoCol {
+	width:404px;
+	margin-left:50px;
+	float:left;
+	}
+
+
+.threeCol {
+	width:634px;
+	margin-left:50px;
+	float:left;
+	}
+
+.storyCarousel {
+	float:right;
+	width:480px;
+	height:260px;
+	}
+
+.slider {
+   width:480px;
+  height:260px;
+}
+
+
+.slider li {
+  width:480px;
+  height:260px; 
+}
+
+
+.navigation ul{
+	margin-left:50px;
+	
+	}
+
+.underNav {
+	margin-top:50px;
+	}
+
+
+/* iPhone [portrait + landscape] */
+@media only screen and (max-device-width: 480px) {
+body {
+	font-size:40px;
+	line-height:50px;
+	}
+
+h1{
+	font-weight:400;
+	color:#A892A7;
+	font-size:53px;
+	}
+
+.h1Small {
+	font-size:45px;
+	display:block;
+	margin:0px 0px 5px 0px;
+	}
+
+
+.oneCol, .twoCol, .threeCol {
+	float:none;
+	width:860px;
+	}
+
+.storyCarousel {
+	display:none;
+	}
+
+
+.navigation li{
+	display:inline;
+	margin:0px 40px 0px 0px;
+	font-size:60px;
+	}
+
+.about {
+	height:auto;
+	}
+
+.header {
+	text-align:center;
+	}
+
+.codlLogo {
+	width:550px;
+	}
+
+.aboutTxt{
+	margin-top:0px;
+	padding-top:50px;
+	padding-bottom:50px;	
+	}
+	
+h4 {
+	font-size:55px;
+	}
+}
+
+
+/* iPad [portrait + landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+body {
+	
+	}
+
+.twoColiP{
+	width:404px;
+	margin-left:50px;
+	float:left;
+	}
+
+.fourColiP{
+	width:910px;
+	float:left;
+	clear:both;
+	}
+
+.threecoliP {
+	width:634px;
+	margin-left:50px;
+	float:left;
+	}
+
+.event {
+	width:253px;
+	margin-right:50px;
+	float:left;
+	}
+
+.eventDate {
+	font-weight:700;
+	}
+
+
+
+}
+
+
+
+/* Desktop [portrait + landscape] */
+@media only screen and (min-width: 1190px) {
+body {
+	font-size:14px;
+	}
+
+.wrapper {
+	width: 1180px;
+	}
+
+
+.oneCol {
+	width:233px;
+	}
+
+.twoCol {
+	width:516px;
+	}
+
+.threeCol {
+	width:799px;
+	}
+
+.about {
+	font-size:16px;
+	}
+
+.storyCarousel img{
+	width:600px;
+	margin-right:0px;
+	height:260px;
+	}
+
+
+.storyCarousel {
+
+	width:600px;
+
+	}
+
+.slider {
+   width:600px;
+
+}
+
+.slider li {
+  width:600px; 
+}
+
+.navigation ul{
+	clear:both;
+	background-color:#B0C784;
+	margin:0px 0px 0px 50px;
+	}
+.navigation{
+	
+	font-size:17px;
+	}
+
+}

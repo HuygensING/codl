@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CODL - ECPv5.1.5//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CODL
+X-ORIGINAL-URL:https://www.codl.nl
+X-WR-CALDESC:Events for CODL
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20140101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140124
+DTEND;VALUE=DATE:20140125
+DTSTAMP:20201006T143718
+CREATED:20130930T134746Z
+LAST-MODIFIED:20140121T094821Z
+UID:565-1390521600-1390607999@www.codl.nl
+SUMMARY:Mini-workshop in Leiden over Elckerlijc
+DESCRIPTION:Op 24 januari 2014 vindt in Leiden een mini-workshop plaats over de Elckerlijc. Hier zullen de deelnemers elkaar vertellen over lopend onderzoek en mogelijkheden voor verdere samenwerking verkennen. Als deel van dit symposium wordt er ook een publiekmiddag georgraniseerd. De organisatie is in handen van Geert Warnar en Orsi Réthelyi. Voor verdere informatie over de studiedag en voor het volledige programma zie: http://www.codl.nl/studiedag-elckerlijc-voor-iedereen-vindt-deze-week-plaats-in-leiden/ \n
+URL:https://www.codl.nl/event/mini-workshop-in-leiden-over-elckerlijc/
+LOCATION:Leiden\, Netherlands
+ORGANIZER;CN="Geert%20Warnar%2C%20Orsi%20R%C3%A9thelyi":MAILTO:G.Warnar@hum.leidenuniv.nl, rethelyi@freemail.hu
+END:VEVENT
+END:VCALENDAR

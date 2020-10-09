@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CODL - ECPv5.1.5//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CODL
+X-ORIGINAL-URL:https://www.codl.nl
+X-WR-CALDESC:Events for CODL
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20130101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20131121
+DTEND;VALUE=DATE:20131123
+DTSTAMP:20201006T143705
+CREATED:20130131T112652Z
+LAST-MODIFIED:20131003T145108Z
+UID:120-1384992000-1385164799@www.codl.nl
+SUMMARY:Eerste workshop Circulation of Dutch Literature
+DESCRIPTION:Op 21 en 22 november 2013 houden we een workshop in Rome. De call for papers\, gericht aan deelnemers aan CODL\, heeft een aantal interessante voorstellen opgeleverd. Het belooft een boeiende bijeenkomst te worden. \nKlik hier voor meer informatie en het voorlopig programma \n  \n \n \n \n
+URL:https://www.codl.nl/event/symposium-circulation-of-dutch-literature/
+LOCATION:Rome\, Italy
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CODL - ECPv5.1.5//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CODL
+X-ORIGINAL-URL:https://www.codl.nl
+X-WR-CALDESC:Events for CODL
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20130101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20131219
+DTEND;VALUE=DATE:20131221
+DTSTAMP:20201006T143711
+CREATED:20130930T135423Z
+LAST-MODIFIED:20130930T135423Z
+UID:580-1387411200-1387583999@www.codl.nl
+SUMMARY:Mini-workshop in Olomouc over Kaas van Willem Elsschot
+DESCRIPTION:Op 19 en 20 december 2013 wordt er in Olomouc een mini-workshop georganiseerd over Kaas van Willem Elsschot. De deelnemers zullen hier een overzicht geven van hun bezigheden in het kader van CODL en zij zullen verdere onderzoeksplannen bespreken. De organisatie is in handen van Wilken Engelbrecht. \n
+URL:https://www.codl.nl/event/mini-workshop-in-olomouc-over-kaas-van-willem-elsschot/
+LOCATION:Unnamed Venue\, Olomouc\, Czech Republic
+ORGANIZER;CN="Wilken%20Engelbrecht":MAILTO:wilken.engelbrecht@upol.cz
+END:VEVENT
+END:VCALENDAR

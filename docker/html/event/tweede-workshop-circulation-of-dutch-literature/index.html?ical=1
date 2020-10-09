@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CODL - ECPv5.1.5//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CODL
+X-ORIGINAL-URL:https://www.codl.nl
+X-WR-CALDESC:Events for CODL
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20140101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20140509
+DTEND;VALUE=DATE:20140511
+DTSTAMP:20201006T143732
+CREATED:20130930T104001Z
+LAST-MODIFIED:20140303T180427Z
+UID:572-1399593600-1399766399@www.codl.nl
+SUMMARY:Tweede workshop Circulation of Dutch Literature
+DESCRIPTION:Op 8\, 9 en 10 mei 2014 vindt in Boedapest aan de Eötvös Loránd Universiteit (ELTE) de tweede CODL-workshop plaats. Voor meer informatie en het voorlopig programma zie: http://www.codl.nl/tweede-codl-workshop-in-boedapest/ \n  \n
+URL:https://www.codl.nl/event/tweede-workshop-circulation-of-dutch-literature/
+LOCATION:Eötvös Loránd Universiteit (ELTE)\, Boedapest\, Hungary
+END:VEVENT
+END:VCALENDAR

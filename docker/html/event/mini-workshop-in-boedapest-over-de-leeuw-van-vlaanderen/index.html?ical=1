@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CODL - ECPv5.1.5//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CODL
+X-ORIGINAL-URL:https://www.codl.nl
+X-WR-CALDESC:Events for CODL
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20130101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20131108T080000
+DTEND;TZID=UTC:20131108T170000
+DTSTAMP:20201006T143643
+CREATED:20130813T103828Z
+LAST-MODIFIED:20131105T140202Z
+UID:495-1383897600-1383930000@www.codl.nl
+SUMMARY:Mini-workshop  in Boedapest over De leeuw van Vlaanderen
+DESCRIPTION:Op 8 november 2013 vindt in Boedapest een mini-workshop plaats over De Leeuw van Vlaanderen. Petra Broomans\, Roberto Dagnino\, Wilken Engelbrecht\, Judit Gera\, Christine Hermann\, Marcin Lipnicki\, Orsi Réthelyi en Jan Van Coillie zullen hier spreken over eigen en gezamenlijk onderzoek in het kader van CODL. De organisatie is in handen van Judit Gera. \nKlik op onderstaande affiche voor het programma. \n \n
+URL:https://www.codl.nl/event/mini-workshop-in-boedapest-over-de-leeuw-van-vlaanderen/
+LOCATION:ELTE\, Boedapest\, Hungary
+ORGANIZER;CN="Judit%20Gera":MAILTO:gerajudit@gmail.com
+END:VEVENT
+END:VCALENDAR

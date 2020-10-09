@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: codl-deployment
+  labels:
+    app: codl
+  namespace: codl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: codl
+  template:
+    metadata:
+      labels:
+        app: codl
+        external-ingress: enabled
+    spec:
+      containers:
+        - name: codl
+          image: registry.diginfra.net/janpieterk/codl
+          imagePullPolicy: IfNotPresent
+          tty: true
+          resources:
+            limits:
+              cpu: 100m
+              memory: 50Mi
+            requests:
+              cpu: 100m
+              memory: 50Mi
+          ports:
+            - containerPort: 80

@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//CODL - ECPv5.1.5//NONSGML v1.0//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CODL
+X-ORIGINAL-URL:https://www.codl.nl
+X-WR-CALDESC:Events for CODL
+BEGIN:VTIMEZONE
+TZID:UTC
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0000
+TZNAME:UTC
+DTSTART:20140101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=UTC:20140321T140000
+DTEND;TZID=UTC:20140321T170000
+DTSTAMP:20201006T143725
+CREATED:20140209T131128Z
+LAST-MODIFIED:20140209T131335Z
+UID:759-1395410400-1395421200@www.codl.nl
+SUMMARY:Mini-workshop in Nijmegen over De stille kracht
+DESCRIPTION:De CODL-werkgroep De Stille Kracht organiseert op 21 maart een studiemiddag in Nijmegen. Voor verdere informatie over de studiedag en voor het volledige programma zie: http://www.codl.nl/studiemiddag-de-stille-kracht-van-louis-couperus-in-nijmegen/ \n
+URL:https://www.codl.nl/event/mini-workshop-in-nijmegen-over-de-stille-kracht/
+LOCATION:Studiecentrum O.U.\, Erasmuslaan 9.\, Nijmegen\, Netherlands
+ORGANIZER;CN="Kim%20Andringa":MAILTO:k.andringa@ulg.ac.be
+END:VEVENT
+END:VCALENDAR
